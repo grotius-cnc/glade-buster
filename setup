@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#usage : $ sudo ./setup
+
+	git clone https://github.com/grotius-cnc/glade-buster.git
+	cd glade-buster
+	dpkg -i glade-buster.deb
+	dpkg -i glade-gtk2_3.8.0-0ubuntu6_amd64.deb
+	dpkg -i libgladeui-1-11_3.8.0-0ubuntu6_amd64.deb
+	cd ..
+	rm -rf glade-buster
+	apt --fix-broken install
+
