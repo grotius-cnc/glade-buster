@@ -1,0 +1,12 @@
+Package: glade-buster
+Version: 1.0-0
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: 
+Maintainer: Your Name <you@email.com>
+Description: compile tag : $ sudo dpkg-deb --build glade-buster
+ Extract .deb files to current directory : dpkg -x filename.deb .
+ Clean apt history : $ sudo apt-get clean --dry-run
+ $ sudo apt-get clean
+ $ sudo apt-get autoclean

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# This file is a pre installer before the deb file is being installed
+
+# If there is already something there, delete it.
+
+
+
+
+
+

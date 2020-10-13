@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# This file is a post installer after the deb file is being installed
+
+# update reprository list wich is added in /etc/apt/..
+apt-get update
+
+
